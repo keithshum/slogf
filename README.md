@@ -18,7 +18,7 @@ Info level displays `INFO`, `WARN`, `ERROR`, `FATAL` logs.
 
 ### 2 log formats
 
-`slogf` supports 2 log formats: text and json.  
+`slogf` supports 2 log formats: `text` and `json`.  
 ```
 time=2023-07-11T17:12:46.649Z level=INFO source=main.go:29 msg="Entered main."
 ```
