@@ -84,6 +84,7 @@ func main() {
     log.Fatalf("Fatal and exit, pod = %v", "MY-POD-4") // This line will never get called as program has already exited.
 }
 ```
+
 ```
 [2023-08-29 UTC 23:02:07] /tmp/slogf  $ go run main.go
 time=2023-08-29T23:02:19.921Z level=DEBUG source=main.go:13 msg="Dummy debug message" pod=MY-POD-1
